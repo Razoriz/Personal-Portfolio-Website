@@ -1,0 +1,42 @@
+:root {
+  --text-color: #004d99;
+}
+
+.typewriter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  position: relative;
+  margin: 5px;
+  top: 50%;
+  transform: translateY(-10%);
+}
+
+.typewriter span {
+  color: var(--text-color);
+  text-transform: uppercase;
+  padding: 2px;
+  border-right: solid var(--text-color) 10px;
+  animation: cursor 1s ease-in-out infinite;
+}
+
+@keyframes cursor {
+  from {
+    border-color: var(--text-color);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 576px) {
+  .typewriter {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .typewriter {
+    font-size: 36px;
+  }
+}
