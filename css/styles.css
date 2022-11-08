@@ -11817,5 +11817,6 @@ section.resume-section .resume-section-content {
   text-transform: uppercase;
 }
 
-.view-projects {
+.bioInfo {
+  font-size: 1rem;
 }
